@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main {
+    width: 30%;
+    background-color: rgb(6, 81, 6);
+    padding: 40px;
+    border-radius: 8px;
+}
+button {
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgb(131, 148, 155);
+  
+}
+button:not(:last-child) {
+    margin-bottom: 10px;    
+}
+button:hover {
+    background-color: rgb(121, 112, 112);
+    cursor: pointer;
+}
+a {
+    height: 20vh;
+    background-color: rgb(139, 53, 53);
+}
+.text {
+    color: violet;
+}
+p {
+    
+    width: 100%;
+    color: bisque;
+    background-color: rgba(211, 223, 223, 0.531);
+}
